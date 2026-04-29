@@ -1,0 +1,65 @@
+/* Общие стили */
+body {
+    padding-left: 15px;
+    font-family: Arial, sans-serif; /* Шрифт для текста */
+    color: #333;
+}
+
+/* Шапка сайта */
+.page-header {
+    background-color: #C25100; /* Тот самый рыжий */
+    margin-top: 0;
+    margin-bottom: 40px; /* Отступ до постов */
+    padding: 20px 20px 20px 40px;
+    overflow: hidden; /* Чтобы текст не вылезал */
+}
+
+/* Ссылка в шапке (Lobster) */
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-family: 'Lobster', cursive;
+    font-size: 36pt;
+    text-decoration: none;
+    margin: 0;
+}
+
+/* Контейнер для контента */
+.content {
+    margin-left: 40px;
+}
+
+/* Стилизация поста */
+.post {
+    margin-bottom: 70px; /* Большой отступ между постами */
+}
+
+/* Блок даты (published: June 30...) */
+.post .date {
+    color: #828282; /* Серый цвет */
+    font-size: 10pt;
+    margin-bottom: 10px; /* Отступ до заголовка */
+}
+
+/* Заголовок поста (Lobster, черный) */
+.post h2, .post h2 a, .post h2 a:visited, .post h2 a:active {
+    color: #000000;
+    font-family: 'Lobster', cursive;
+    font-size: 24pt;
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* Текст поста */
+.post p {
+    font-size: 11pt;
+    line-height: 1.6; /* Межстрочный интервал для чтения */
+}
+
+/* Стили для плюсика (glyphicon) */
+.top-menu, .top-menu:visited, .top-menu:active {
+    color: #ffffff;
+    float: right;
+    font-size: 24pt;
+    margin-right: 20px;
+}
